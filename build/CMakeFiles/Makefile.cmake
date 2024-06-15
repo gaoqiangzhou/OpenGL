@@ -69,4 +69,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/DependInfo.cmake"
   "CMakeFiles/1.getting_started__3.3.shaders_class.dir/DependInfo.cmake"
   "CMakeFiles/1.getting_started__4.1.textures.dir/DependInfo.cmake"
+  "CMakeFiles/1.getting_started__4.2.textures_combined.dir/DependInfo.cmake"
+  "CMakeFiles/1.getting_started__5.1.transformations.dir/DependInfo.cmake"
   )

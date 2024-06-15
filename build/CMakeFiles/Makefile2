@@ -73,6 +73,8 @@ all: CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/all
 all: CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/all
 all: CMakeFiles/1.getting_started__3.3.shaders_class.dir/all
 all: CMakeFiles/1.getting_started__4.1.textures.dir/all
+all: CMakeFiles/1.getting_started__4.2.textures_combined.dir/all
+all: CMakeFiles/1.getting_started__5.1.transformations.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -90,6 +92,8 @@ clean: CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/clean
 clean: CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/clean
 clean: CMakeFiles/1.getting_started__3.3.shaders_class.dir/clean
 clean: CMakeFiles/1.getting_started__4.1.textures.dir/clean
+clean: CMakeFiles/1.getting_started__4.2.textures_combined.dir/clean
+clean: CMakeFiles/1.getting_started__5.1.transformations.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -99,7 +103,7 @@ clean: CMakeFiles/1.getting_started__4.1.textures.dir/clean
 CMakeFiles/STB_IMAGE.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/STB_IMAGE.dir/build.make CMakeFiles/STB_IMAGE.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/STB_IMAGE.dir/build.make CMakeFiles/STB_IMAGE.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gaoqiang-zhou/Documents/projects/OpenGL/build/CMakeFiles --progress-num=19,20 "Built target STB_IMAGE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gaoqiang-zhou/Documents/projects/OpenGL/build/CMakeFiles --progress-num=23,24 "Built target STB_IMAGE"
 .PHONY : CMakeFiles/STB_IMAGE.dir/all
 
 # Build rule for subdir invocation for target.
@@ -125,7 +129,7 @@ CMakeFiles/STB_IMAGE.dir/clean:
 CMakeFiles/GLAD.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gaoqiang-zhou/Documents/projects/OpenGL/build/CMakeFiles --progress-num=17,18 "Built target GLAD"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gaoqiang-zhou/Documents/projects/OpenGL/build/CMakeFiles --progress-num=21,22 "Built target GLAD"
 .PHONY : CMakeFiles/GLAD.dir/all
 
 # Build rule for subdir invocation for target.
@@ -359,6 +363,60 @@ CMakeFiles/1.getting_started__4.1.textures.dir/rule: cmake_check_build_system
 CMakeFiles/1.getting_started__4.1.textures.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__4.1.textures.dir/build.make CMakeFiles/1.getting_started__4.1.textures.dir/clean
 .PHONY : CMakeFiles/1.getting_started__4.1.textures.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1.getting_started__4.2.textures_combined.dir
+
+# All Build rule for target.
+CMakeFiles/1.getting_started__4.2.textures_combined.dir/all: CMakeFiles/STB_IMAGE.dir/all
+CMakeFiles/1.getting_started__4.2.textures_combined.dir/all: CMakeFiles/GLAD.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__4.2.textures_combined.dir/build.make CMakeFiles/1.getting_started__4.2.textures_combined.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__4.2.textures_combined.dir/build.make CMakeFiles/1.getting_started__4.2.textures_combined.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gaoqiang-zhou/Documents/projects/OpenGL/build/CMakeFiles --progress-num=17,18 "Built target 1.getting_started__4.2.textures_combined"
+.PHONY : CMakeFiles/1.getting_started__4.2.textures_combined.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1.getting_started__4.2.textures_combined.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoqiang-zhou/Documents/projects/OpenGL/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/1.getting_started__4.2.textures_combined.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoqiang-zhou/Documents/projects/OpenGL/build/CMakeFiles 0
+.PHONY : CMakeFiles/1.getting_started__4.2.textures_combined.dir/rule
+
+# Convenience name for target.
+1.getting_started__4.2.textures_combined: CMakeFiles/1.getting_started__4.2.textures_combined.dir/rule
+.PHONY : 1.getting_started__4.2.textures_combined
+
+# clean rule for target.
+CMakeFiles/1.getting_started__4.2.textures_combined.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__4.2.textures_combined.dir/build.make CMakeFiles/1.getting_started__4.2.textures_combined.dir/clean
+.PHONY : CMakeFiles/1.getting_started__4.2.textures_combined.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1.getting_started__5.1.transformations.dir
+
+# All Build rule for target.
+CMakeFiles/1.getting_started__5.1.transformations.dir/all: CMakeFiles/STB_IMAGE.dir/all
+CMakeFiles/1.getting_started__5.1.transformations.dir/all: CMakeFiles/GLAD.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__5.1.transformations.dir/build.make CMakeFiles/1.getting_started__5.1.transformations.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__5.1.transformations.dir/build.make CMakeFiles/1.getting_started__5.1.transformations.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gaoqiang-zhou/Documents/projects/OpenGL/build/CMakeFiles --progress-num=19,20 "Built target 1.getting_started__5.1.transformations"
+.PHONY : CMakeFiles/1.getting_started__5.1.transformations.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1.getting_started__5.1.transformations.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoqiang-zhou/Documents/projects/OpenGL/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/1.getting_started__5.1.transformations.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoqiang-zhou/Documents/projects/OpenGL/build/CMakeFiles 0
+.PHONY : CMakeFiles/1.getting_started__5.1.transformations.dir/rule
+
+# Convenience name for target.
+1.getting_started__5.1.transformations: CMakeFiles/1.getting_started__5.1.transformations.dir/rule
+.PHONY : 1.getting_started__5.1.transformations
+
+# clean rule for target.
+CMakeFiles/1.getting_started__5.1.transformations.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__5.1.transformations.dir/build.make CMakeFiles/1.getting_started__5.1.transformations.dir/clean
+.PHONY : CMakeFiles/1.getting_started__5.1.transformations.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

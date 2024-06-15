@@ -58,5 +58,17 @@
   "command": "/usr/bin/c++  -I/home/gaoqiang-zhou/Documents/projects/OpenGL/include -I/home/gaoqiang-zhou/Documents/projects/OpenGL/build/configuration -I/home/gaoqiang-zhou/Documents/projects/OpenGL/includes -g -Wall -o CMakeFiles/1.getting_started__4.1.textures.dir/src/1.getting_started/4.1.textures/textures.cpp.o -c /home/gaoqiang-zhou/Documents/projects/OpenGL/src/1.getting_started/4.1.textures/textures.cpp",
   "file": "/home/gaoqiang-zhou/Documents/projects/OpenGL/src/1.getting_started/4.1.textures/textures.cpp",
   "output": "CMakeFiles/1.getting_started__4.1.textures.dir/src/1.getting_started/4.1.textures/textures.cpp.o"
+},
+{
+  "directory": "/home/gaoqiang-zhou/Documents/projects/OpenGL/build",
+  "command": "/usr/bin/c++  -I/home/gaoqiang-zhou/Documents/projects/OpenGL/include -I/home/gaoqiang-zhou/Documents/projects/OpenGL/build/configuration -I/home/gaoqiang-zhou/Documents/projects/OpenGL/includes -g -Wall -o CMakeFiles/1.getting_started__4.2.textures_combined.dir/src/1.getting_started/4.2.textures_combined/textures_combined.cpp.o -c /home/gaoqiang-zhou/Documents/projects/OpenGL/src/1.getting_started/4.2.textures_combined/textures_combined.cpp",
+  "file": "/home/gaoqiang-zhou/Documents/projects/OpenGL/src/1.getting_started/4.2.textures_combined/textures_combined.cpp",
+  "output": "CMakeFiles/1.getting_started__4.2.textures_combined.dir/src/1.getting_started/4.2.textures_combined/textures_combined.cpp.o"
+},
+{
+  "directory": "/home/gaoqiang-zhou/Documents/projects/OpenGL/build",
+  "command": "/usr/bin/c++  -I/home/gaoqiang-zhou/Documents/projects/OpenGL/include -I/home/gaoqiang-zhou/Documents/projects/OpenGL/build/configuration -I/home/gaoqiang-zhou/Documents/projects/OpenGL/includes -g -Wall -o CMakeFiles/1.getting_started__5.1.transformations.dir/src/1.getting_started/5.1.transformations/transformations.cpp.o -c /home/gaoqiang-zhou/Documents/projects/OpenGL/src/1.getting_started/5.1.transformations/transformations.cpp",
+  "file": "/home/gaoqiang-zhou/Documents/projects/OpenGL/src/1.getting_started/5.1.transformations/transformations.cpp",
+  "output": "CMakeFiles/1.getting_started__5.1.transformations.dir/src/1.getting_started/5.1.transformations/transformations.cpp.o"
 }
 ]

@@ -246,6 +246,32 @@ GLAD/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__4.1.textures.dir/build.make CMakeFiles/1.getting_started__4.1.textures.dir/build
 .PHONY : 1.getting_started__4.1.textures/fast
 
+#=============================================================================
+# Target rules for targets named 1.getting_started__4.2.textures_combined
+
+# Build rule for target.
+1.getting_started__4.2.textures_combined: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1.getting_started__4.2.textures_combined
+.PHONY : 1.getting_started__4.2.textures_combined
+
+# fast build rule for target.
+1.getting_started__4.2.textures_combined/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__4.2.textures_combined.dir/build.make CMakeFiles/1.getting_started__4.2.textures_combined.dir/build
+.PHONY : 1.getting_started__4.2.textures_combined/fast
+
+#=============================================================================
+# Target rules for targets named 1.getting_started__5.1.transformations
+
+# Build rule for target.
+1.getting_started__5.1.transformations: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1.getting_started__5.1.transformations
+.PHONY : 1.getting_started__5.1.transformations
+
+# fast build rule for target.
+1.getting_started__5.1.transformations/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__5.1.transformations.dir/build.make CMakeFiles/1.getting_started__5.1.transformations.dir/build
+.PHONY : 1.getting_started__5.1.transformations/fast
+
 src/1.getting_started/1.1.hello_window/hello_window.o: src/1.getting_started/1.1.hello_window/hello_window.cpp.o
 .PHONY : src/1.getting_started/1.1.hello_window/hello_window.o
 
@@ -438,6 +464,54 @@ src/1.getting_started/4.1.textures/textures.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__4.1.textures.dir/build.make CMakeFiles/1.getting_started__4.1.textures.dir/src/1.getting_started/4.1.textures/textures.cpp.s
 .PHONY : src/1.getting_started/4.1.textures/textures.cpp.s
 
+src/1.getting_started/4.2.textures_combined/textures_combined.o: src/1.getting_started/4.2.textures_combined/textures_combined.cpp.o
+.PHONY : src/1.getting_started/4.2.textures_combined/textures_combined.o
+
+# target to build an object file
+src/1.getting_started/4.2.textures_combined/textures_combined.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__4.2.textures_combined.dir/build.make CMakeFiles/1.getting_started__4.2.textures_combined.dir/src/1.getting_started/4.2.textures_combined/textures_combined.cpp.o
+.PHONY : src/1.getting_started/4.2.textures_combined/textures_combined.cpp.o
+
+src/1.getting_started/4.2.textures_combined/textures_combined.i: src/1.getting_started/4.2.textures_combined/textures_combined.cpp.i
+.PHONY : src/1.getting_started/4.2.textures_combined/textures_combined.i
+
+# target to preprocess a source file
+src/1.getting_started/4.2.textures_combined/textures_combined.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__4.2.textures_combined.dir/build.make CMakeFiles/1.getting_started__4.2.textures_combined.dir/src/1.getting_started/4.2.textures_combined/textures_combined.cpp.i
+.PHONY : src/1.getting_started/4.2.textures_combined/textures_combined.cpp.i
+
+src/1.getting_started/4.2.textures_combined/textures_combined.s: src/1.getting_started/4.2.textures_combined/textures_combined.cpp.s
+.PHONY : src/1.getting_started/4.2.textures_combined/textures_combined.s
+
+# target to generate assembly for a file
+src/1.getting_started/4.2.textures_combined/textures_combined.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__4.2.textures_combined.dir/build.make CMakeFiles/1.getting_started__4.2.textures_combined.dir/src/1.getting_started/4.2.textures_combined/textures_combined.cpp.s
+.PHONY : src/1.getting_started/4.2.textures_combined/textures_combined.cpp.s
+
+src/1.getting_started/5.1.transformations/transformations.o: src/1.getting_started/5.1.transformations/transformations.cpp.o
+.PHONY : src/1.getting_started/5.1.transformations/transformations.o
+
+# target to build an object file
+src/1.getting_started/5.1.transformations/transformations.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__5.1.transformations.dir/build.make CMakeFiles/1.getting_started__5.1.transformations.dir/src/1.getting_started/5.1.transformations/transformations.cpp.o
+.PHONY : src/1.getting_started/5.1.transformations/transformations.cpp.o
+
+src/1.getting_started/5.1.transformations/transformations.i: src/1.getting_started/5.1.transformations/transformations.cpp.i
+.PHONY : src/1.getting_started/5.1.transformations/transformations.i
+
+# target to preprocess a source file
+src/1.getting_started/5.1.transformations/transformations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__5.1.transformations.dir/build.make CMakeFiles/1.getting_started__5.1.transformations.dir/src/1.getting_started/5.1.transformations/transformations.cpp.i
+.PHONY : src/1.getting_started/5.1.transformations/transformations.cpp.i
+
+src/1.getting_started/5.1.transformations/transformations.s: src/1.getting_started/5.1.transformations/transformations.cpp.s
+.PHONY : src/1.getting_started/5.1.transformations/transformations.s
+
+# target to generate assembly for a file
+src/1.getting_started/5.1.transformations/transformations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__5.1.transformations.dir/build.make CMakeFiles/1.getting_started__5.1.transformations.dir/src/1.getting_started/5.1.transformations/transformations.cpp.s
+.PHONY : src/1.getting_started/5.1.transformations/transformations.cpp.s
+
 src/glad.o: src/glad.c.o
 .PHONY : src/glad.o
 
@@ -502,6 +576,8 @@ help:
 	@echo "... 1.getting_started__3.2.shaders_interpolation"
 	@echo "... 1.getting_started__3.3.shaders_class"
 	@echo "... 1.getting_started__4.1.textures"
+	@echo "... 1.getting_started__4.2.textures_combined"
+	@echo "... 1.getting_started__5.1.transformations"
 	@echo "... GLAD"
 	@echo "... STB_IMAGE"
 	@echo "... src/1.getting_started/1.1.hello_window/hello_window.o"
@@ -528,6 +604,12 @@ help:
 	@echo "... src/1.getting_started/4.1.textures/textures.o"
 	@echo "... src/1.getting_started/4.1.textures/textures.i"
 	@echo "... src/1.getting_started/4.1.textures/textures.s"
+	@echo "... src/1.getting_started/4.2.textures_combined/textures_combined.o"
+	@echo "... src/1.getting_started/4.2.textures_combined/textures_combined.i"
+	@echo "... src/1.getting_started/4.2.textures_combined/textures_combined.s"
+	@echo "... src/1.getting_started/5.1.transformations/transformations.o"
+	@echo "... src/1.getting_started/5.1.transformations/transformations.i"
+	@echo "... src/1.getting_started/5.1.transformations/transformations.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"

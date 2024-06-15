@@ -24,7 +24,9 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10,
+						11
 					]
 				}
 			],
@@ -48,7 +50,9 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10,
+						11
 					]
 				}
 			],
@@ -108,6 +112,20 @@
 					"id" : "1.getting_started__4.1.textures::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-1.getting_started__4.1.textures-Debug-4977969a2bba1d0de538.json",
 					"name" : "1.getting_started__4.1.textures",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1.getting_started__4.2.textures_combined::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1.getting_started__4.2.textures_combined-Debug-c2f320954e5331135b75.json",
+					"name" : "1.getting_started__4.2.textures_combined",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1.getting_started__5.1.transformations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1.getting_started__5.1.transformations-Debug-7242b1893e4174f66767.json",
+					"name" : "1.getting_started__5.1.transformations",
 					"projectIndex" : 0
 				},
 				{
