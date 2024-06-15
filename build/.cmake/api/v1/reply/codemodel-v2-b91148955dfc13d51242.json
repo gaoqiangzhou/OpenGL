@@ -1,0 +1,141 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "myOpenGL",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "1.getting_started__1.1.hello_window::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1.getting_started__1.1.hello_window-Debug-4f59c797f6c771595cd2.json",
+					"name" : "1.getting_started__1.1.hello_window",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1.getting_started__1.2.hello_window_clear::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1.getting_started__1.2.hello_window_clear-Debug-13fa320438b09276f190.json",
+					"name" : "1.getting_started__1.2.hello_window_clear",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1.getting_started__2.1.hello_triangle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1.getting_started__2.1.hello_triangle-Debug-5e10235d623390e5e8a4.json",
+					"name" : "1.getting_started__2.1.hello_triangle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1.getting_started__2.2.hello_triangle_indexed::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1.getting_started__2.2.hello_triangle_indexed-Debug-982b58d7a6ff7d9163d2.json",
+					"name" : "1.getting_started__2.2.hello_triangle_indexed",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1.getting_started__3.1.shaders_uniform::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1.getting_started__3.1.shaders_uniform-Debug-4df82e6b8ae6fc508f84.json",
+					"name" : "1.getting_started__3.1.shaders_uniform",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1.getting_started__3.2.shaders_interpolation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1.getting_started__3.2.shaders_interpolation-Debug-18e362ebc1d2e9822f7e.json",
+					"name" : "1.getting_started__3.2.shaders_interpolation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1.getting_started__3.3.shaders_class::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1.getting_started__3.3.shaders_class-Debug-bbdcdc84c38afb24073a.json",
+					"name" : "1.getting_started__3.3.shaders_class",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1.getting_started__4.1.textures::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1.getting_started__4.1.textures-Debug-4977969a2bba1d0de538.json",
+					"name" : "1.getting_started__4.1.textures",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GLAD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GLAD-Debug-e4862b22241768461bfe.json",
+					"name" : "GLAD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STB_IMAGE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STB_IMAGE-Debug-1df14010b5c9b2915816.json",
+					"name" : "STB_IMAGE",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/gaoqiang-zhou/Documents/projects/OpenGL/build",
+		"source" : "/home/gaoqiang-zhou/Documents/projects/OpenGL"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
