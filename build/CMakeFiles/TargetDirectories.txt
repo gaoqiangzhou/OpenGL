@@ -10,5 +10,6 @@
 /home/gaoqiang-zhou/Documents/projects/OpenGL/build/CMakeFiles/1.getting_started__4.1.textures.dir
 /home/gaoqiang-zhou/Documents/projects/OpenGL/build/CMakeFiles/1.getting_started__4.2.textures_combined.dir
 /home/gaoqiang-zhou/Documents/projects/OpenGL/build/CMakeFiles/1.getting_started__5.1.transformations.dir
+/home/gaoqiang-zhou/Documents/projects/OpenGL/build/CMakeFiles/1.getting_started__6.1.coordinate_systems.dir
 /home/gaoqiang-zhou/Documents/projects/OpenGL/build/CMakeFiles/edit_cache.dir
 /home/gaoqiang-zhou/Documents/projects/OpenGL/build/CMakeFiles/rebuild_cache.dir

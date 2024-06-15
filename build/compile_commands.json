@@ -70,5 +70,11 @@
   "command": "/usr/bin/c++  -I/home/gaoqiang-zhou/Documents/projects/OpenGL/include -I/home/gaoqiang-zhou/Documents/projects/OpenGL/build/configuration -I/home/gaoqiang-zhou/Documents/projects/OpenGL/includes -g -Wall -o CMakeFiles/1.getting_started__5.1.transformations.dir/src/1.getting_started/5.1.transformations/transformations.cpp.o -c /home/gaoqiang-zhou/Documents/projects/OpenGL/src/1.getting_started/5.1.transformations/transformations.cpp",
   "file": "/home/gaoqiang-zhou/Documents/projects/OpenGL/src/1.getting_started/5.1.transformations/transformations.cpp",
   "output": "CMakeFiles/1.getting_started__5.1.transformations.dir/src/1.getting_started/5.1.transformations/transformations.cpp.o"
+},
+{
+  "directory": "/home/gaoqiang-zhou/Documents/projects/OpenGL/build",
+  "command": "/usr/bin/c++  -I/home/gaoqiang-zhou/Documents/projects/OpenGL/include -I/home/gaoqiang-zhou/Documents/projects/OpenGL/build/configuration -I/home/gaoqiang-zhou/Documents/projects/OpenGL/includes -g -Wall -o CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.o -c /home/gaoqiang-zhou/Documents/projects/OpenGL/src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp",
+  "file": "/home/gaoqiang-zhou/Documents/projects/OpenGL/src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp",
+  "output": "CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.o"
 }
 ]

@@ -26,7 +26,8 @@
 						8,
 						9,
 						10,
-						11
+						11,
+						12
 					]
 				}
 			],
@@ -52,7 +53,8 @@
 						8,
 						9,
 						10,
-						11
+						11,
+						12
 					]
 				}
 			],
@@ -126,6 +128,13 @@
 					"id" : "1.getting_started__5.1.transformations::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-1.getting_started__5.1.transformations-Debug-7242b1893e4174f66767.json",
 					"name" : "1.getting_started__5.1.transformations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1.getting_started__6.1.coordinate_systems::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1.getting_started__6.1.coordinate_systems-Debug-3bacc57ead9f1ce444ed.json",
+					"name" : "1.getting_started__6.1.coordinate_systems",
 					"projectIndex" : 0
 				},
 				{

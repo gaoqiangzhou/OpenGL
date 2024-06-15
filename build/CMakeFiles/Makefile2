@@ -75,6 +75,7 @@ all: CMakeFiles/1.getting_started__3.3.shaders_class.dir/all
 all: CMakeFiles/1.getting_started__4.1.textures.dir/all
 all: CMakeFiles/1.getting_started__4.2.textures_combined.dir/all
 all: CMakeFiles/1.getting_started__5.1.transformations.dir/all
+all: CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -94,6 +95,7 @@ clean: CMakeFiles/1.getting_started__3.3.shaders_class.dir/clean
 clean: CMakeFiles/1.getting_started__4.1.textures.dir/clean
 clean: CMakeFiles/1.getting_started__4.2.textures_combined.dir/clean
 clean: CMakeFiles/1.getting_started__5.1.transformations.dir/clean
+clean: CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -103,7 +105,7 @@ clean: CMakeFiles/1.getting_started__5.1.transformations.dir/clean
 CMakeFiles/STB_IMAGE.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/STB_IMAGE.dir/build.make CMakeFiles/STB_IMAGE.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/STB_IMAGE.dir/build.make CMakeFiles/STB_IMAGE.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gaoqiang-zhou/Documents/projects/OpenGL/build/CMakeFiles --progress-num=23,24 "Built target STB_IMAGE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gaoqiang-zhou/Documents/projects/OpenGL/build/CMakeFiles --progress-num=25,26 "Built target STB_IMAGE"
 .PHONY : CMakeFiles/STB_IMAGE.dir/all
 
 # Build rule for subdir invocation for target.
@@ -129,7 +131,7 @@ CMakeFiles/STB_IMAGE.dir/clean:
 CMakeFiles/GLAD.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gaoqiang-zhou/Documents/projects/OpenGL/build/CMakeFiles --progress-num=21,22 "Built target GLAD"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gaoqiang-zhou/Documents/projects/OpenGL/build/CMakeFiles --progress-num=23,24 "Built target GLAD"
 .PHONY : CMakeFiles/GLAD.dir/all
 
 # Build rule for subdir invocation for target.
@@ -417,6 +419,33 @@ CMakeFiles/1.getting_started__5.1.transformations.dir/rule: cmake_check_build_sy
 CMakeFiles/1.getting_started__5.1.transformations.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__5.1.transformations.dir/build.make CMakeFiles/1.getting_started__5.1.transformations.dir/clean
 .PHONY : CMakeFiles/1.getting_started__5.1.transformations.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1.getting_started__6.1.coordinate_systems.dir
+
+# All Build rule for target.
+CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/all: CMakeFiles/STB_IMAGE.dir/all
+CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/all: CMakeFiles/GLAD.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/build.make CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/build.make CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gaoqiang-zhou/Documents/projects/OpenGL/build/CMakeFiles --progress-num=21,22 "Built target 1.getting_started__6.1.coordinate_systems"
+.PHONY : CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoqiang-zhou/Documents/projects/OpenGL/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaoqiang-zhou/Documents/projects/OpenGL/build/CMakeFiles 0
+.PHONY : CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/rule
+
+# Convenience name for target.
+1.getting_started__6.1.coordinate_systems: CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/rule
+.PHONY : 1.getting_started__6.1.coordinate_systems
+
+# clean rule for target.
+CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/build.make CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/clean
+.PHONY : CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

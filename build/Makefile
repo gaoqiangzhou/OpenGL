@@ -272,6 +272,19 @@ GLAD/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__5.1.transformations.dir/build.make CMakeFiles/1.getting_started__5.1.transformations.dir/build
 .PHONY : 1.getting_started__5.1.transformations/fast
 
+#=============================================================================
+# Target rules for targets named 1.getting_started__6.1.coordinate_systems
+
+# Build rule for target.
+1.getting_started__6.1.coordinate_systems: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1.getting_started__6.1.coordinate_systems
+.PHONY : 1.getting_started__6.1.coordinate_systems
+
+# fast build rule for target.
+1.getting_started__6.1.coordinate_systems/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/build.make CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/build
+.PHONY : 1.getting_started__6.1.coordinate_systems/fast
+
 src/1.getting_started/1.1.hello_window/hello_window.o: src/1.getting_started/1.1.hello_window/hello_window.cpp.o
 .PHONY : src/1.getting_started/1.1.hello_window/hello_window.o
 
@@ -512,6 +525,30 @@ src/1.getting_started/5.1.transformations/transformations.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__5.1.transformations.dir/build.make CMakeFiles/1.getting_started__5.1.transformations.dir/src/1.getting_started/5.1.transformations/transformations.cpp.s
 .PHONY : src/1.getting_started/5.1.transformations/transformations.cpp.s
 
+src/1.getting_started/6.1.coordinate_systems/coordinate_systems.o: src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.o
+.PHONY : src/1.getting_started/6.1.coordinate_systems/coordinate_systems.o
+
+# target to build an object file
+src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/build.make CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.o
+.PHONY : src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.o
+
+src/1.getting_started/6.1.coordinate_systems/coordinate_systems.i: src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.i
+.PHONY : src/1.getting_started/6.1.coordinate_systems/coordinate_systems.i
+
+# target to preprocess a source file
+src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/build.make CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.i
+.PHONY : src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.i
+
+src/1.getting_started/6.1.coordinate_systems/coordinate_systems.s: src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.s
+.PHONY : src/1.getting_started/6.1.coordinate_systems/coordinate_systems.s
+
+# target to generate assembly for a file
+src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/build.make CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.s
+.PHONY : src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp.s
+
 src/glad.o: src/glad.c.o
 .PHONY : src/glad.o
 
@@ -578,6 +615,7 @@ help:
 	@echo "... 1.getting_started__4.1.textures"
 	@echo "... 1.getting_started__4.2.textures_combined"
 	@echo "... 1.getting_started__5.1.transformations"
+	@echo "... 1.getting_started__6.1.coordinate_systems"
 	@echo "... GLAD"
 	@echo "... STB_IMAGE"
 	@echo "... src/1.getting_started/1.1.hello_window/hello_window.o"
@@ -610,6 +648,9 @@ help:
 	@echo "... src/1.getting_started/5.1.transformations/transformations.o"
 	@echo "... src/1.getting_started/5.1.transformations/transformations.i"
 	@echo "... src/1.getting_started/5.1.transformations/transformations.s"
+	@echo "... src/1.getting_started/6.1.coordinate_systems/coordinate_systems.o"
+	@echo "... src/1.getting_started/6.1.coordinate_systems/coordinate_systems.i"
+	@echo "... src/1.getting_started/6.1.coordinate_systems/coordinate_systems.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
