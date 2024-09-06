@@ -34,7 +34,7 @@ set(CHAPTERS
     1.getting_started
     2.lighting
     3.model_loading
-    # 4.advanced_opengl
+    4.advanced_opengl
     # 5.advanced_lighting
     # 6.pbr
     # 7.in_practice
@@ -87,16 +87,16 @@ set(3.model_loading
     1.model_loading
 )
 
-# set(4.advanced_opengl
-#     1.1.depth_testing
-#     1.2.depth_testing_view
-#     2.stencil_testing
-#     3.1.blending_discard
-#     3.2.blending_sort
-#     5.1.framebuffers
+set(4.advanced_opengl
+    1.1.depth_testing
+    1.2.depth_testing_view
+    2.stencil_testing
+    3.1.blending_discard
+    3.2.blending_sort
+    5.1.framebuffers
 #     5.2.framebuffers_exercise1
-#     6.1.cubemaps_skybox
-#     6.2.cubemaps_environment_mapping
+    6.1.cubemaps_skybox
+    6.2.cubemaps_environment_mapping
 #     8.advanced_glsl_ubo
 #     9.1.geometry_shader_houses
 #     9.2.geometry_shader_exploding
@@ -106,7 +106,7 @@ set(3.model_loading
 #     10.3.asteroids_instanced
 #     11.1.anti_aliasing_msaa
 #     11.2.anti_aliasing_offscreen
-# )
+)
 
 # set(5.advanced_lighting
 #     1.advanced_lighting
